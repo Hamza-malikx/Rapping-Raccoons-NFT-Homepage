@@ -19,7 +19,7 @@ import img153 from "../../images/153.png";
 import FooterLogo from "../../images/footer-logo-m.png";
 import Accordion from "react-bootstrap/Accordion";
 const Home = () => {
-  const [state, setState] = useState(0);
+  const [state, setState] = useState(1);
   const down = () => {
     if (state > 0) {
       setState(state - 1);
@@ -121,7 +121,7 @@ const Home = () => {
                         type="text"
                         id="myNumber"
                         className="form-control input-number"
-                        value={state}
+                        value={state < 10 ? "0" + state : state}
                         np
                       />
                       <button id="up" className="btn btn-default" onClick={up}>
