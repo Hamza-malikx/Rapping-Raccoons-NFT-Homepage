@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="173" height="60" viewBox="0 0 173 60">
+  <defs>
+    <filter id="Rectangle_1" x="0" y="0" width="173" height="60" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#c6f"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1331" data-name="Group 1331" transform="translate(-1097 -20)">
+    <g transform="matrix(1, 0, 0, 1, 1097, 20)" filter="url(#Rectangle_1)">
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" width="155" height="42" rx="7" transform="translate(9 9)" fill="#008eff"/>
+    </g>
+    <text id="Connect_wallet" data-name="Connect wallet" transform="translate(1130 55)" fill="#fff" font-size="11" font-family="LEMONMILK-Bold, LEMON MILK" font-weight="700"><tspan x="0" y="0">CONNECT WALLET</tspan></text>
+  </g>
+</svg>
