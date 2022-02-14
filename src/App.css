@@ -28,7 +28,7 @@
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("./images/arrowUp.PNG") !important;
-  transform: rotate(0deg) !important;
+  transform: rotate(360deg) !important;
 }
 .accordion-button::after {
   background-image: url("./images/arrowDown.PNG") !important;
