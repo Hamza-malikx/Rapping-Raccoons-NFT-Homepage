@@ -26,8 +26,11 @@
   outline: none !important;
   box-shadow: none !important;
 }
-.accordion-button::after {
+.accordion-button:not(.collapsed)::after {
   background-image: url("./images/arrowUp.PNG") !important;
+}
+.accordion-button::after {
+  background-image: url("./images/arrowDown.PNG") !important;
 }
 .acca {
   margin-top: 60px;
