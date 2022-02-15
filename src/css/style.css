@@ -384,7 +384,7 @@ input[type="number"] {
 }
 
 .road-map-wrap {
-  background: url(../images/road-map.png) top center no-repeat;
+  background: url("../images/Mask Group 5@2x.png") top center no-repeat;
   background-size: cover;
   padding: 282.48px 0 143.33px;
 }
@@ -945,8 +945,7 @@ footer .footer-link li a {
   }
 
   .faqs-wrap .faqs-content h2 {
-    max-width: 300px;
-    margin: 0 auto 35px;
+    margin: 0 auto 10px;
   }
 
   .faqs-accordion .card .card-body {

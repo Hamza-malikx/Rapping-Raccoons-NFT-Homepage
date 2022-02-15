@@ -11,7 +11,7 @@
 }
 .accordion-button {
   background-color: transparent !important;
-  color: #fff !important;
+  color: #329cfc !important;
   padding: 1rem 0rem !important;
   font-family: "Roboto";
 }
@@ -26,6 +26,8 @@
   outline: none !important;
   box-shadow: none !important;
 }
+.accordion-button {
+}
 .accordion-button:not(.collapsed)::after {
   background-image: url("./images/arrowUp.PNG") !important;
   transform: rotate(360deg) !important;
@@ -35,4 +37,11 @@
 }
 .acca {
   margin-top: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .accordion-body {
+    color: #ffffff !important;
+    opacity: 70%;
+    padding: 0.1rem 0rem 0.7rem !important;
+  }
 }

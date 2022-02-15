@@ -90,7 +90,7 @@ const Header = () => {
                     to="/"
                     onClick={scrollToBuy}
                   >
-                    Buy
+                    BUY
                   </Link>
                 </li>
                 <li className={styles.navbarItems}>
@@ -230,7 +230,7 @@ const Header = () => {
                         to="/"
                         onClick={scrollToBuy}
                       >
-                        UTILITY
+                        BUY
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
@@ -239,7 +239,7 @@ const Header = () => {
                         to="/"
                         onClick={scrollToMap}
                       >
-                        RARITY
+                        ROADMAP
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
@@ -345,12 +345,12 @@ const Header = () => {
                     </li>
                     <li className={styles.navbarItemsAg}>
                       <Link className={styles.navbarLink} to="/">
-                        UTILITY
+                        BUY
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
                       <Link className={styles.navbarLink} to="/">
-                        RARITY
+                        ROADMAP
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
