@@ -14,7 +14,9 @@ import roadMapD from "../../images/droadMap.png";
 import roadMapM from "../../images/Group 1743@2x.png";
 import img52 from "../../images/52@2x.png";
 import img83 from "../../images/83@2x.png";
+import img831 from "../../images/382.png";
 import img125 from "../../images/125@2x.png";
+import img1251 from "../../images/3456.png";
 import img153 from "../../images/153@2x.png";
 import FooterLogo from "../../images/Group 1751@2x.png";
 import Accordion from "react-bootstrap/Accordion";
@@ -636,7 +638,7 @@ const Home = () => {
                     // className="family-content-col"
                     >
                       <div className="family-content-inner">
-                        <img src={img83} alt="" />
+                        <img src={img831} alt="" />
                         <h4>BRAINS TRUST</h4>
                         <h5>Tech Head</h5>
                         <p>
@@ -653,7 +655,7 @@ const Home = () => {
                     // className="family-content-col"
                     >
                       <div className="family-content-inner">
-                        <img src={img125} alt="" />
+                        <img src={img1251} alt="" />
                         <h4>LOW KEY</h4>
                         <h5>Graphic Artist</h5>
                         <p>
