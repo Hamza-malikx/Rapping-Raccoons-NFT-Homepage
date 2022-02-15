@@ -58,7 +58,7 @@ const Header = () => {
         style={
           scrollState > 100
             ? { backgroundColor: "#080010" }
-            : { backgroundColor: "transparent" }
+            : { backgroundColor: "#080010" }
         }
       >
         <div className="container">
@@ -72,7 +72,7 @@ const Header = () => {
               <ul className={styles.navbarUl}>
                 <li className={styles.navbarItems}>
                   <Link className={styles.navbarLink} to="/" onClick={scroll}>
-                    MINT
+                    HOME
                   </Link>
                 </li>
                 <li className={styles.navbarItems}>
@@ -117,7 +117,7 @@ const Header = () => {
                     to="/"
                     onClick={scrollUsage}
                   >
-                    NFT USAGE
+                    FAQ
                   </Link>
                 </li>
 
@@ -212,7 +212,7 @@ const Header = () => {
                         to="/"
                         onClick={scroll}
                       >
-                        MINT
+                        HOME
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
@@ -257,7 +257,7 @@ const Header = () => {
                         to="/"
                         onClick={scrollUsage}
                       >
-                        NFT USAGE
+                        FAQ
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
@@ -320,10 +320,10 @@ const Header = () => {
                       </div>
                     </li>
                     <li style={{ textAlign: "center" }}>
-                      {/* <button className={styles.connectWalBtnAg}>
+                      <button className={styles.connectWalBtn}>
                         Connect Wallet
-                      </button> */}
-                      <img src={gr131} alt="" className={styles.btnt} />
+                      </button>
+                      {/* <img src={gr131} alt="" className={styles.btnt} /> */}
                     </li>
                   </ul>
                 </div>
@@ -335,7 +335,7 @@ const Header = () => {
                       style={{ margin: "20px 0 !important" }}
                     >
                       <Link className={styles.navbarLink} to="/">
-                        MINT
+                        HOME
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
@@ -358,9 +358,12 @@ const Header = () => {
                         TEAM
                       </Link>
                     </li>
-                    <li className={styles.navbarItemsAg}>
+                    <li
+                      className={styles.navbarItemsAg}
+                      style={{ marginBottom: "5px" }}
+                    >
                       <Link className={styles.navbarLink} to="/nft-usage">
-                        NFT USAGE
+                        FAQ
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
@@ -423,18 +426,18 @@ const Header = () => {
                       </div>
                     </li>
                     <li style={{ textAlign: "center" }}>
-                      {/* <button className={styles.connectWalBtnAg}>
+                      <button className={styles.connectWalBtn}>
                         Connect Wallet
-                      </button> */}
-                      <img src={gr131} alt="" className={styles.btnt} />
+                      </button>
+                      {/* <img src={gr131} alt="" className={styles.btnt} /> */}
                     </li>
                   </ul>
                 </div>
               )}
             </div>
             <div className={styles.connectWalBtnWrapper}>
-              {/* <button className={styles.connectWalBtn}>Connect Wallet</button> */}
-              <img src={gr131} alt="" className={styles.btnt} />
+              <button className={styles.connectWalBtn}>Connect Wallet</button>
+              {/* <img src={gr131} alt="" className={styles.btnt} /> */}
             </div>
           </nav>
         </div>

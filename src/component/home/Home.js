@@ -4,11 +4,11 @@ import "../../css/style.css";
 import banner from "../../images/Group 1328@2x.png";
 import discord from "../../images/Group 1333@2x.png";
 import twitter from "../../images/Group 1332@2x.png";
-import buyImg from "../../images/10@2x.png";
+import buyImg from "../../images/ezgif.com-gif-maker(2).gif";
 import mintNow from "../../images/Group 1334@2x.png";
 import enterImg from "../../images/Group 1327@2x.png";
 import charImg from "../../images/Group 1329@2x.png";
-import winterImg from "../../images/wint2x.png";
+import winterImg from "../../images/ezgif.com-gif-maker(3).gif";
 import roadMapLogo from "../../images/Group 1744.png";
 import roadMapD from "../../images/droadMap.png";
 import roadMapM from "../../images/Group 1743@2x.png";
@@ -18,6 +18,7 @@ import img125 from "../../images/125@2x.png";
 import img153 from "../../images/153@2x.png";
 import FooterLogo from "../../images/Group 1751@2x.png";
 import Accordion from "react-bootstrap/Accordion";
+import downDown from "../../images/Group 1338@2x.png";
 const Home = () => {
   const [state, setState] = useState(1);
   const down = () => {
@@ -221,8 +222,138 @@ const Home = () => {
           </section>
           <div className="road-map-wrap" id="map">
             <img src={roadMapLogo} className="roadmap-logo-mobile" alt="" />
-            <img src={roadMapD} className="roadmap-desktop" alt="" />
-            <img src={roadMapM} className="roadmap-mobile" alt="" />
+
+            <div className="wrap-wrap">
+              <div className="row-map-w">
+                <div className="row-map-c">
+                  <div className="road-map-col">
+                    <h4>STAGE 01</h4>
+                    <ul>
+                      <li>
+                        The creation of 5,000 unique Rapping Raccoons NFT’s
+                      </li>
+                      <li>
+                        Discord and Social media deployment to begin Sniper
+                      </li>
+                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
+                      <li>Commence marketing campaign</li>
+                      <li>Grow twitter to over 30k followers</li>
+                      <li>White-list selection process announced </li>
+                      <li>List on Rarity Sniper</li>
+                    </ul>
+                    <div>
+                      <img src={downDown} alt="" className="downDown" />
+                    </div>
+                  </div>
+                </div>
+                <div className="row-map-c st-ag-ag">
+                  <div className="road-map-col">
+                    <h4>STAGE 05</h4>
+                    <ul>
+                      <li>
+                        The creation of 5,000 unique Rapping Raccoons NFT’s
+                      </li>
+                      <li>
+                        Discord and Social media deployment to begin Sniper
+                      </li>
+                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
+                      <li>Commence marketing campaign</li>
+                      <li>Grow twitter to over 30k followers</li>
+                      <li>White-list selection process announced </li>
+                      <li>List on Rarity Sniper</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="row-map-w1 ">
+                <div className="row-map-c1 st2">
+                  <div className="road-map-col1 ">
+                    <h4>STAGE 02</h4>
+                    <ul>
+                      <li>
+                        The creation of 5,000 unique Rapping Raccoons NFT’s
+                      </li>
+                      <li>
+                        Discord and Social media deployment to begin Sniper
+                      </li>
+                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
+                      <li>Commence marketing campaign</li>
+                      <li>Grow twitter to over 30k followers</li>
+                      <li>White-list selection process announced </li>
+                      <li>List on Rarity Sniper</li>
+                    </ul>
+                    <div>
+                      <img src={downDown} alt="" className=" imgSt2" />
+                    </div>
+                  </div>
+                </div>
+                <div className="row-map-c1 st2">
+                  <div className="road-map-col1 ">
+                    <h4>STAGE 02</h4>
+                    <ul>
+                      <li>
+                        The creation of 5,000 unique Rapping Raccoons NFT’s
+                      </li>
+                      <li>
+                        Discord and Social media deployment to begin Sniper
+                      </li>
+                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
+                      <li>Commence marketing campaign</li>
+                      <li>Grow twitter to over 30k followers</li>
+                      <li>White-list selection process announced </li>
+                      <li>List on Rarity Sniper</li>
+                    </ul>
+                    <div>
+                      <img src={downDown} alt="" className=" imgSt2" />
+                    </div>
+                  </div>
+                </div>
+                <div className="row-map-c">
+                  <div className="road-map-col">
+                    <h4>STAGE 01</h4>
+                    <ul>
+                      <li>
+                        The creation of 5,000 unique Rapping Raccoons NFT’s
+                      </li>
+                      <li>
+                        Discord and Social media deployment to begin Sniper
+                      </li>
+                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
+                      <li>Commence marketing campaign</li>
+                      <li>Grow twitter to over 30k followers</li>
+                      <li>White-list selection process announced </li>
+                      <li>List on Rarity Sniper</li>
+                    </ul>
+                    <div>
+                      <img src={downDown} alt="" className="downDown3" />
+                    </div>
+                  </div>
+                </div>
+                <div className="row-map-c st-ag">
+                  <div className="road-map-col">
+                    <h4>STAGE 01</h4>
+                    <ul>
+                      <li>
+                        The creation of 5,000 unique Rapping Raccoons NFT’s
+                      </li>
+                      <li>
+                        Discord and Social media deployment to begin Sniper
+                      </li>
+                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
+                      <li>Commence marketing campaign</li>
+                      <li>Grow twitter to over 30k followers</li>
+                      <li>White-list selection process announced </li>
+                      <li>List on Rarity Sniper</li>
+                    </ul>
+                    <div>
+                      <img src={downDown} alt="" className="downDown3 llg" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <img src={roadMapD} className="roadmap-desktop" alt="" />
+            <img src={roadMapM} className="roadmap-mobile" alt="" /> */}
           </div>
           <section className="faqs-wrap" id="usage">
             <div className="container">
@@ -430,476 +561,6 @@ const Home = () => {
                     </Accordion.Item>
                   </Accordion>
                 </div>
-                {/* <div className="accordion faqs-accordion" id="accordion">
-                  <div className="card">
-                    <div className="card-header" id="faqhead1">
-                      <a
-                        href="#"
-                        className=""
-                        data-toggle="collapse"
-                        data-target="#faq1"
-                        aria-expanded="true"
-                        aria-controls="faq1"
-                      >
-                        WHEN DOES THE COMPETITON OFFICIALLY START?
-                      </a>
-                    </div>
-                    <div
-                      id="faq1"
-                      className="collapse show"
-                      aria-labelledby="faqhead1"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead2">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq2"
-                        aria-expanded="true"
-                        aria-controls="faq2"
-                      >
-                        HOW ARE THE FINALISTS CHOSEN?
-                      </a>
-                    </div>
-                    <div
-                      id="faq2"
-                      className="collapse"
-                      aria-labelledby="faqhead2"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead3">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq3"
-                        aria-expanded="true"
-                        aria-controls="faq3"
-                      >
-                        WHAT IS A META-FAME BILLBOARD CHARTS?
-                      </a>
-                    </div>
-
-                    <div
-                      id="faq3"
-                      className="collapse"
-                      aria-labelledby="faqhead3"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead4">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq4"
-                        aria-expanded="true"
-                        aria-controls="faq4"
-                      >
-                        WHY DO I NEED TO ATTRACT FOLLOWS?
-                      </a>
-                    </div>
-                    <div
-                      id="faq4"
-                      className="collapse"
-                      aria-labelledby="faqhead4"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead5">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq5"
-                        aria-expanded="true"
-                        aria-controls="faq5"
-                      >
-                        HOW DO I GET FOLLOWERS?
-                      </a>
-                    </div>
-                    <div
-                      id="faq5"
-                      className="collapse"
-                      aria-labelledby="faqhead5"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead6">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq6"
-                        aria-expanded="true"
-                        aria-controls="faq6"
-                      >
-                        HOW DO PEOPLE FOLLOW THE RACCOONS?
-                      </a>
-                    </div>
-
-                    <div
-                      id="faq6"
-                      className="collapse"
-                      aria-labelledby="faqhead6"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead7">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq7"
-                        aria-expanded="true"
-                        aria-controls="faq7"
-                      >
-                        WHAT HAPPENS IF I OWN MORE THAN ONE RACCOON?
-                      </a>
-                    </div>
-                    <div
-                      id="faq7"
-                      className="collapse"
-                      aria-labelledby="faqhead7"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead8">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq8"
-                        aria-expanded="true"
-                        aria-controls="faq8"
-                      >
-                        CAN FINALISTS SELL THEIR RAPPING RACCOONS?
-                      </a>
-                    </div>
-                    <div
-                      id="faq8"
-                      className="collapse"
-                      aria-labelledby="faqhead8"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead9">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq9"
-                        aria-expanded="true"
-                        aria-controls="faq9"
-                      >
-                        DO THE FINALISTS HAVE TIME TO PREPARE FOR THE BATTLE?
-                      </a>
-                    </div>
-
-                    <div
-                      id="faq9"
-                      className="collapse"
-                      aria-labelledby="faqhead9"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead10">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq10"
-                        aria-expanded="true"
-                        aria-controls="faq10"
-                      >
-                        CAN FINALISTS GET ANYONE THEY WANT TO PERFORM IN THEIR
-                        PLACE?
-                      </a>
-                    </div>
-                    <div
-                      id="faq10"
-                      className="collapse"
-                      aria-labelledby="faqhead10"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead11">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq11"
-                        aria-expanded="true"
-                        aria-controls="faq11"
-                      >
-                        DO THE CREATERS HAVE A RAPPING RACCOON IN THE
-                        COMPETITION?
-                      </a>
-                    </div>
-                    <div
-                      id="faq11"
-                      className="collapse"
-                      aria-labelledby="faqhead11"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead12">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq12"
-                        aria-expanded="true"
-                        aria-controls="faq12"
-                      >
-                        IF I WIN, HOW DO I GET MY PRIZE ?
-                      </a>
-                    </div>
-
-                    <div
-                      id="faq12"
-                      className="collapse"
-                      aria-labelledby="faqhead12"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead13">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq13"
-                        aria-expanded="true"
-                        aria-controls="faq13"
-                      >
-                        CAN I SPONSER THIS EVENT?
-                      </a>
-                    </div>
-                    <div
-                      id="faq13"
-                      className="collapse"
-                      aria-labelledby="faqhead13"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="faqhead14">
-                      <a
-                        href="#"
-                        className="collapsed"
-                        data-toggle="collapse"
-                        data-target="#faq14"
-                        aria-expanded="true"
-                        aria-controls="faq14"
-                      >
-                        WHAT HAPPENS TO MY RACCOON AFTER THE COMPETITION?
-                      </a>
-                    </div>
-                    <div
-                      id="faq14"
-                      className="collapse"
-                      aria-labelledby="faqhead14"
-                      data-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p>
-                          Once 80% of the Rapping Raccoons are sold the
-                          competitions will officially start. The Rapping
-                          Raccoon holders will have 99 days to attract
-                          “followers” to their Rapping Raccoon, on the 100th day
-                          Raccoons will not be able to add any additional
-                          followers, for this competition. The official
-                          countdown clock will be displayed on Rapping Raccoon
-                          website.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
           </section>
@@ -907,81 +568,106 @@ const Home = () => {
             <div className="container">
               <div className="family-content">
                 <h2>THE FAMILY</h2>
-                <div className="family-content-row">
-                  <div className="family-content-col">
-                    <div className="family-content-inner">
-                      <img src={img52} alt="" />
-                      <h4>DADDY-A</h4>
-                      <h5>Cofounder / Operations</h5>
-                      <p>
-                        Known for his ideas and creative mind, most importantly
-                        he knows how to get shit done. 20 + years owning &
-                        running companies.
-                      </p>
-                      <span>Junior J ’s dad , mentor and wallet.</span>
+                <div className="family-content-row row">
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <div
+                    // className="family-content-col"
+                    >
+                      <div className="family-content-inner">
+                        <img src={img52} alt="" />
+                        <h4>DADDY-A</h4>
+                        <h5>Cofounder / Operations</h5>
+                        <p>
+                          Known for his ideas and creative mind, mo importantly
+                          importantly he knows how to get shit do n+ owning &
+                          owning & running companies.
+                        </p>
+                        <span>Junior J ’s dad , mentor and wallet.</span>
+                      </div>
                     </div>
                   </div>
-                  <div className="family-content-col">
-                    <div className="family-content-inner">
-                      <img src={img83} alt="" />
-                      <h4>JUNIOR- J</h4>
-                      <h5>Cofounder / Jr Promoter</h5>
-                      <p>
-                        14 years old kid, with more connection then Donald
-                        Trump. Lives and breaths all things NFT’s and metaverse
-                        related.
-                      </p>
-                      <span>Daddy-A’s reason to live</span>
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <div
+                    // className="family-content-col"
+                    >
+                      <div className="family-content-inner">
+                        <img src={img83} alt="" />
+                        <h4>JUNIOR- J</h4>
+                        <h5>Cofounder / Jr Promoter</h5>
+                        <p>
+                          14 years old kid, with more connection then Donald
+                          Trump. Lives and breaths all things NFT’s and
+                          metaverse related.
+                        </p>
+                        <span>Daddy-A’s reason to live</span>
+                      </div>
                     </div>
                   </div>
-                  <div className="family-content-col">
-                    <div className="family-content-inner">
-                      <img src={img125} alt="" />
-                      <h4>BIG MUMMA</h4>
-                      <h5>Marketing</h5>
-                      <p>
-                        She can talk underwater, 20+ years running sales and
-                        marketing teams across multiple industries, Never takes
-                        no for an answer!
-                      </p>
-                      <span>Daddy-A’s ball and chain</span>
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <div
+                    // className="family-content-col"
+                    >
+                      <div className="family-content-inner">
+                        <img src={img125} alt="" />
+                        <h4>BIG MUMMA</h4>
+                        <h5>Marketing</h5>
+                        <p>
+                          She can talk underwater, 20+ years running sales and
+                          marketing teams across multiple industries, Never
+                          takes no for an answer!
+                        </p>
+                        <span>Daddy-A’s ball and chain</span>
+                      </div>
                     </div>
                   </div>
-                  <div className="family-content-col">
-                    <div className="family-content-inner">
-                      <img src={img153} alt="" />
-                      <h4>BUBBA- E</h4>
-                      <h5>AKA Gossip Girl</h5>
-                      <p>
-                        With her finger firmly on the pulse of all things
-                        social, discovering events, trends and hot new talent is
-                        her specialty.
-                      </p>
-                      <span>Big Mumma’s pet project</span>
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <div
+                    // className="family-content-col"
+                    >
+                      <div className="family-content-inner">
+                        <img src={img153} alt="" />
+                        <h4>BUBBA- E</h4>
+                        <h5>AKA Gossip Girl</h5>
+                        <p>
+                          With her finger firmly on the pulse of all things
+                          social, discovering events, trends and hot new talent
+                          is her specialty.
+                        </p>
+                        <span>Big Mumma’s pet project</span>
+                      </div>
                     </div>
                   </div>
-                  <div className="family-content-col">
-                    <div className="family-content-inner">
-                      <img src={img83} alt="" />
-                      <h4>BRAINS TRUST</h4>
-                      <h5>Tech Head</h5>
-                      <p>
-                        Lead developer, with over 15 years experience in
-                        software development across multiple platforms, his our
-                        go to man for all things tech.
-                      </p>
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <div
+                    // className="family-content-col"
+                    >
+                      <div className="family-content-inner">
+                        <img src={img83} alt="" />
+                        <h4>BRAINS TRUST</h4>
+                        <h5>Tech Head</h5>
+                        <p>
+                          Lead developer, with over 15 years experience in
+                          software development across multiple platforms, h our
+                          our go to man for all things tech.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div className="family-content-col">
-                    <div className="family-content-inner">
-                      <img src={img125} alt="" />
-                      <h4>LOW KEY</h4>
-                      <h5>Graphic Artist</h5>
-                      <p>
-                        Likes to keep a low profile, he has been a professional
-                        graphic designer for more than 5 years, we call him the
-                        creative genius.
-                      </p>
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <div
+                    //
+                    // className="family-content-col"
+                    >
+                      <div className="family-content-inner">
+                        <img src={img125} alt="" />
+                        <h4>LOW KEY</h4>
+                        <h5>Graphic Artist</h5>
+                        <p>
+                          Likes to keep a low profile, he has been a
+                          professional graphic designer for more than 5 years,
+                          we call him the creative genius.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>

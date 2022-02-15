@@ -133,16 +133,20 @@ label span {
   align-items: center;
 }
 .connectWalBtn {
-  color: #000000;
+  color: #fff;
   background-color: #00b8ff;
   border: 1px solid #00b8ff;
   font-family: "Poppins,bold", sans-serif;
   font-size: 10px;
   font-weight: 900;
-  padding: 0px 21px;
+  padding: 0px 14px;
   text-transform: uppercase;
   letter-spacing: 1.6px;
-  height: 51px;
+  height: 42px;
+  border-radius: 6px;
+}
+.connectWalBtn {
+  box-shadow: 0 0px 6px #cc66ff;
 }
 .connectWalBtnAg {
   color: #000000;
@@ -223,11 +227,11 @@ label span {
 }
 @media screen and (max-width: 1000px) {
   .logo img {
-    width: auto;
+    width: 100%;
     /* margin-top: 14px; */
   }
   .headerWrapper {
-    padding: 15px 0;
+    padding: 10px 0;
   }
   .navbarUl {
     display: none;
@@ -247,7 +251,7 @@ label span {
     z-index: 999;
     position: absolute;
     right: 10%;
-    bottom: 29px;
+    bottom: 25px;
   }
   .wrapper {
     display: block;
@@ -260,7 +264,7 @@ label span {
     z-index: 998;
     /* margin-top: 100px; */
     margin-left: 706px;
-    background: black;
+    background-color: rgb(8, 0, 16);
   }
   .wrapperab {
     display: block;
@@ -272,7 +276,7 @@ label span {
     transition: ease-in 1s;
     z-index: 998;
     margin-right: 715px;
-    background: black;
+    background-color: rgb(8, 0, 16);
   }
   .connectWalBtnWrapper {
     display: none;
@@ -298,5 +302,11 @@ label span {
   }
   .navbarItemsAg {
     font-size: 11px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .logo img {
+    /* max-width: 250px; */
+    /* margin-top: 14px; */
   }
 }

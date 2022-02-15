@@ -229,6 +229,7 @@ input[type="number"] {
 
 .buy-your-row .buy-your-inner ul {
   margin-bottom: 39px;
+  padding-left: 0px;
 }
 
 .buy-your-row .buy-your-inner ul li {
@@ -386,9 +387,13 @@ input[type="number"] {
 .road-map-wrap {
   background: url("../images/Mask Group 5@2x.png") top center no-repeat;
   background-size: cover;
-  padding: 282.48px 0 143.33px;
+  padding: 230.48px 0 143.33px;
 }
-
+@media screen and (max-width: 1000px) {
+  .road-map-wrap {
+    padding: 160.48px 0 143.33px;
+  }
+}
 .road-map-wrap .roadmap-desktop {
   width: 88.264%;
   margin: 0 auto;
