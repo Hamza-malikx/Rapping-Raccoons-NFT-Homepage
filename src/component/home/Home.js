@@ -226,7 +226,7 @@ const Home = () => {
             <div className="wrap-wrap">
               <div className="row-map-w">
                 <div className="row-map-c">
-                  <div className="road-map-col">
+                  <div className="road-map-col ">
                     <h4>STAGE 01</h4>
                     <ul>
                       <li>
@@ -251,36 +251,34 @@ const Home = () => {
                     <h4>STAGE 05</h4>
                     <ul>
                       <li>
-                        The creation of 5,000 unique Rapping Raccoons NFT’s
+                        The winning performance to be turned into an NFT, and
+                        auctioned off for charity
+                      </li>
+                      <li>Build the Raccoon Rave club in the Metaverse</li>
+                      <li>
+                        The winner will get a star on the RRC “Walk of Fame”
                       </li>
                       <li>
-                        Discord and Social media deployment to begin Sniper
+                        All Raccoon finalists will be immortalized at the RRC
                       </li>
-                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
-                      <li>Commence marketing campaign</li>
-                      <li>Grow twitter to over 30k followers</li>
-                      <li>White-list selection process announced </li>
-                      <li>List on Rarity Sniper</li>
+                      <li>Raccoons are free again to attract more followers</li>
+                      <li>Details of our next competition will be announced</li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="row-map-w1 ">
                 <div className="row-map-c1 st2">
-                  <div className="road-map-col1 ">
+                  <div className="road-map-col1 cc">
                     <h4>STAGE 02</h4>
                     <ul>
-                      <li>
-                        The creation of 5,000 unique Rapping Raccoons NFT’s
-                      </li>
-                      <li>
-                        Discord and Social media deployment to begin Sniper
-                      </li>
-                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
-                      <li>Commence marketing campaign</li>
-                      <li>Grow twitter to over 30k followers</li>
-                      <li>White-list selection process announced </li>
-                      <li>List on Rarity Sniper</li>
+                      <li>Launch private sale for VIP White-list members</li>
+                      <li>Release date of public sale will be announced •</li>
+                      <li>Activate the Rapping Raccoon YouTube channel</li>
+                      <li>Give away promotion to be laid out</li>
+                      <li>Sell out 80% of Rapping Raccoons</li>
+                      <li>Competition countdown to start</li>
+                      <li>Unveiling of the Meta-Fame Billboard Chart</li>
                     </ul>
                     <div>
                       <img src={downDown} alt="" className=" imgSt2" />
@@ -288,20 +286,16 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="row-map-c1 st2">
-                  <div className="road-map-col1 ">
-                    <h4>STAGE 02</h4>
+                  <div className="road-map-col1 cc">
+                    <h4>STAGE 03</h4>
                     <ul>
-                      <li>
-                        The creation of 5,000 unique Rapping Raccoons NFT’s
-                      </li>
-                      <li>
-                        Discord and Social media deployment to begin Sniper
-                      </li>
-                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
-                      <li>Commence marketing campaign</li>
-                      <li>Grow twitter to over 30k followers</li>
-                      <li>White-list selection process announced </li>
-                      <li>List on Rarity Sniper</li>
+                      <li>Competition countdown finishes</li>
+                      <li>The ten highest-ranked Raccoons become finalists</li>
+                      <li>The final ten random finalists will be drawn</li>
+                      <li>The 1738-hour countdown to the battle begins</li>
+                      <li>Increase marketing campaign for the live battles</li>
+                      <li>Secure major corporate sponsor</li>
+                      <li>Merchandise reveal and giveaway</li>
                     </ul>
                     <div>
                       <img src={downDown} alt="" className=" imgSt2" />
@@ -309,20 +303,18 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="row-map-c">
-                  <div className="road-map-col">
-                    <h4>STAGE 01</h4>
+                  <div className="road-map-col cc">
+                    <h4>STAGE 04</h4>
                     <ul>
+                      <li>All “Proxy” performers to be revealed</li>
+                      <li>The 1738 hr countdown ends and the battles begin</li>
+                      <li>The 20 Finalists performances are live streamed</li>
+                      <li>Finalists’ performances uploaded to YouTube</li>
+                      <li>Rapping Raccoons cast their vote, for all to see</li>
                       <li>
-                        The creation of 5,000 unique Rapping Raccoons NFT’s
+                        Public will have 7 days to vote, via YouTube likes
                       </li>
-                      <li>
-                        Discord and Social media deployment to begin Sniper
-                      </li>
-                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
-                      <li>Commence marketing campaign</li>
-                      <li>Grow twitter to over 30k followers</li>
-                      <li>White-list selection process announced </li>
-                      <li>List on Rarity Sniper</li>
+                      <li>Winners announced and prize money distributed</li>
                     </ul>
                     <div>
                       <img src={downDown} alt="" className="downDown3" />
@@ -330,20 +322,22 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="row-map-c st-ag">
-                  <div className="road-map-col">
-                    <h4>STAGE 01</h4>
+                  <div className="road-map-col cc">
+                    <h4>STAGE 05</h4>
                     <ul>
                       <li>
-                        The creation of 5,000 unique Rapping Raccoons NFT’s
+                        The winning performance to be turned into an NFT, and
+                        auctioned off for charity
+                      </li>
+                      <li>Build the Raccoon Rave club in the Metaverse</li>
+                      <li>
+                        The winner will get a star on the RRC “Walk of Fame”
                       </li>
                       <li>
-                        Discord and Social media deployment to begin Sniper
+                        All Raccoon finalists will be immortalized at the RRC
                       </li>
-                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
-                      <li>Commence marketing campaign</li>
-                      <li>Grow twitter to over 30k followers</li>
-                      <li>White-list selection process announced </li>
-                      <li>List on Rarity Sniper</li>
+                      <li>Raccoons are free again to attract more followers</li>
+                      <li>Details of our next competition will be announced</li>
                     </ul>
                     <div>
                       <img src={downDown} alt="" className="downDown3 llg" />

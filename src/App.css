@@ -49,6 +49,13 @@
   .footer-logo-m img {
     width: 86%;
   }
+  .row-map-c1 {
+    max-width: 360px;
+  }
+  .cc {
+    max-width: 327px;
+    margin: 0 auto;
+  }
 }
 .homeSect1 {
   margin-top: 80px;
@@ -60,7 +67,7 @@
 }
 .row-map-c {
   flex: 0 0 auto;
-  max-width: 382px;
+  width: 382px;
   position: relative;
 }
 .row-map-w1 {
@@ -75,9 +82,9 @@
 .imgSt2 {
   transform: rotate(-90deg);
 }
-.row-map-c {
+.row-map-c1 {
   flex: 0 0 auto;
-  max-width: 382px;
+  width: 382px;
   position: relative;
 }
 .downDown {
@@ -158,13 +165,19 @@
   max-width: 95%;
   margin: auto;
 }
-@media screen and (max-width: 1218px) {
-  .row-map-c,
+@media screen and (max-width: 1268px) {
+  .row-map-c {
+    max-width: 320px;
+  }
   .row-map-c1 {
     max-width: 320px;
   }
   .imgSt2 {
     top: 10%;
+  }
+  .road-map-col ul li,
+  .road-map-col1 ul li {
+    font-size: 8px;
   }
 }
 @media screen and (max-width: 1118px) {
@@ -177,6 +190,10 @@
   }
 }
 @media screen and (max-width: 1018px) {
+  .road-map-col ul li,
+  .road-map-col1 ul li {
+    font-size: 6px;
+  }
   .row-map-c,
   .row-map-c1 {
     max-width: 280px;
@@ -211,6 +228,10 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .road-map-col ul li,
+  .road-map-col1 ul li {
+    font-size: 10px;
+  }
   .row-map-w,
   .row-map-w1 {
     flex-direction: column;
