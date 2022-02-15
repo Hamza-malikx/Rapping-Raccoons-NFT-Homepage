@@ -214,10 +214,14 @@
 @media screen and (max-width: 880px) {
   .row-map-c,
   .row-map-c1 {
-    max-width: 220px;
+    max-width: 210px;
   }
   .imgSt2 {
-    top: 17%;
+    top: 10%;
+  }
+  .road-map-col ul li,
+  .road-map-col1 ul li {
+    font-size: 6px;
   }
 }
 @media screen and (max-width: 520px) {
