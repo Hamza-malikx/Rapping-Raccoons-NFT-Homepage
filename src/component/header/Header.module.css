@@ -15,8 +15,8 @@
   padding: 20px 0;
 }
 .logo {
-  transform: translateX(-100rem);
-  animation: slideIn 0.5s forwards;
+  /* transform: translateX(-100rem); */
+  /* animation: slideIn 0.5s forwards; */
 }
 .logo img {
   max-width: 300px;
