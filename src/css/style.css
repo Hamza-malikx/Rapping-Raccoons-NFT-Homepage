@@ -288,6 +288,7 @@ input[type="number"] {
 
 .enter-wrap {
   position: relative;
+  background: #080010;
 }
 
 .enter-wrap img {
@@ -391,7 +392,12 @@ input[type="number"] {
 }
 @media screen and (min-width: 1400px) {
   .road-map-wrap {
-    padding: 290.48px 0 143.33px;
+    padding: 310.48px 0 143.33px;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .road-map-wrap {
+    padding: 330.48px 0 143.33px;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -869,7 +875,12 @@ footer .footer-link li a {
   }
 
   .enter-wrap .enter-link {
-    display: none;
+    /* display: none; */
+    font-size: 14px;
+    width: 173px;
+    height: 48px;
+    padding: 13.5px 0;
+    text-align: center;
   }
 
   .content h2 {

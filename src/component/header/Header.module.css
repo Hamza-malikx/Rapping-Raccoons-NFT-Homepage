@@ -136,7 +136,9 @@ label span {
   color: #fff;
   background-color: #00b8ff;
   border: 1px solid #00b8ff;
-  font-family: "Poppins,bold", sans-serif;
+  /* font-family: "Poppins,bold", sans-serif; */
+  font-family: "Lemon/Milk";
+
   font-size: 10px;
   font-weight: 900;
   padding: 0px 14px;
