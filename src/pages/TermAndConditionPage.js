@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "../component/header/Header";
-import Home from "../component/home/Home";
+import Terms from "../component/termAndCond/Terms";
 import Footer from "../component/footer/Footer";
-const HomePage = () => {
+const TermAndConditionPage = () => {
   return (
-    <div>
+    <div className="term-and-cond-wrapper">
       <Header />
-      <Home />
+      <Terms />
       <Footer />
     </div>
   );
 };
 
-export default HomePage;
+export default TermAndConditionPage;

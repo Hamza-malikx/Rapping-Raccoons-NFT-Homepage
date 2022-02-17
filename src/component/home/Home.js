@@ -18,7 +18,6 @@ import img831 from "../../images/382.png";
 import img125 from "../../images/125@2x.png";
 import img1251 from "../../images/3456.png";
 import img153 from "../../images/153@2x.png";
-import FooterLogo from "../../images/Group 1751@2x.png";
 import Accordion from "react-bootstrap/Accordion";
 import downDown from "../../images/Group 1338@2x.png";
 const Home = () => {
@@ -32,6 +31,9 @@ const Home = () => {
   };
   const up = () => {
     setState(state + 1);
+  };
+  const PopUp = () => {
+    alert("Raccoon Rave currently under construction, coming soon");
   };
   return (
     <div className="homeSect1">
@@ -103,10 +105,10 @@ const Home = () => {
                         Minted: <b>0 NFT’s</b>
                       </li>
                       <li>
-                        Price per NFT: <b>0.0888 ETH + gas fees</b>
+                        Price per NFT: <b>0.16 ETH + gas fees</b>
                       </li>
                       <li>
-                        Public sale available: <b>01.03.2022</b>{" "}
+                        Public sale available: <b>##/##/####</b>{" "}
                       </li>
                       <li>
                         Max allowed: <b>3</b>
@@ -141,7 +143,7 @@ const Home = () => {
           </section>
           <section className="enter-wrap">
             <img src={enterImg} alt="" />
-            <a href="#" className="enter-link">
+            <a href="#" className="enter-link" onClick={PopUp}>
               enter
             </a>
           </section>
@@ -174,21 +176,20 @@ const Home = () => {
                 <img src={charImg} alt="" />
                 <h2>META-FAME BILLBOARD CHART</h2>
                 <p>
-                  Rapping Raccoon’s attract “followers” to improve their chance
-                  of winning. Each time a Raccoon gets “followed” their ranking
+                  Rapping Raccoons attract “followers” to improve their chance
+                  of winning. Each time a Raccoon is “followed” their ranking
                   goes up on the “Meta-Fame Billboard Chart”. The lucky Raccoons
-                  with rare traits will get a “Golden Follower” that is equal to
-                  one hundred bonus followers, giving them a head start over
-                  their Raccoon rivals. The 20 Finalists will be made up of the
-                  top 10 ranked Raccoons on the Meta-Fame Billboard Chart, along
-                  with 10 Raccoons randomly selected from the top 1000 ranked
-                  Raccoons. Rapping Raccoons will have 99 days from when the
+                  with rare traits will receive a “Golden Follower” that is
+                  equal to three hundred bonus followers, giving them a head
+                  start over their Raccoon rivals. The 20 Finalists will be made
+                  up of the top 20 ranked Raccoons on the Meta-Fame Billboard
+                  Chart. Rapping Raccoons will have 99 days from when the
                   competition begins to gain their “followers”. On the 100th
                   day, the 20 finalists will be announced and the countdown to
                   the battle begins.
                 </p>
                 <h6>
-                  Finalists will have 1738 hours to prepare or find their
+                  Finalists will have 1,738 hours to prepare or find their
                   “Proxy”, before the battle.
                 </h6>
               </div>
@@ -211,7 +212,7 @@ const Home = () => {
                   the winning Raccoon getting their own star on the “walk of
                   fame” club entrance.
                   <br /> The winning performance clip will become an NFT and be
-                  auctioned, with all funds raised going to the
+                  sold, with all funds raised going to the
                   <br /> winning Raccoon’s Charity of choice.
                 </p>
                 <h6>
@@ -239,7 +240,7 @@ const Home = () => {
                       </li>
                       <li>Launch preliminary Rapping Raccoon website Rarity</li>
                       <li>Commence marketing campaign</li>
-                      <li>Grow twitter to over 30k followers</li>
+                      {/* <li>Grow twitter to over 30k followers</li> */}
                       <li>White-list selection process announced </li>
                       <li>List on Rarity Sniper</li>
                     </ul>
@@ -252,32 +253,27 @@ const Home = () => {
                   <div className="road-map-col">
                     <h4>STAGE 05</h4>
                     <ul>
-                      <li>
-                        The winning performance to be turned into an NFT, and
-                        auctioned off for charity
-                      </li>
+                      <li>Winners announced, prize money distributed</li>
+                      <li>Winning performance sold as an NFT, for charity</li>
                       <li>Build the Raccoon Rave club in the Metaverse</li>
                       <li>
                         The winner will get a star on the RRC “Walk of Fame”
                       </li>
-                      <li>
-                        All Raccoon finalists will be immortalized at the RRC
-                      </li>
-                      <li>Raccoons are free again to attract more followers</li>
                       <li>Details of our next competition will be announced</li>
+                      <li>Raccoons are free to attract more followers</li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="row-map-w1 ">
                 <div className="row-map-c1 st2">
-                  <div className="road-map-col1 cc">
+                  <div className="road-map-col1 cc ccx">
                     <h4>STAGE 02</h4>
                     <ul>
                       <li>Launch private sale for VIP White-list members</li>
-                      <li>Release date of public sale will be announced •</li>
-                      <li>Activate the Rapping Raccoon YouTube channel</li>
-                      <li>Give away promotion to be laid out</li>
+                      <li>Release date of public sale will be announced</li>
+                      <li>Initiate the Rapping Raccoon YouTube channel</li>
+                      {/* <li>Give away promotion to be laid out</li> */}
                       <li>Sell out 80% of Rapping Raccoons</li>
                       <li>Competition countdown to start</li>
                       <li>Unveiling of the Meta-Fame Billboard Chart</li>
@@ -291,13 +287,13 @@ const Home = () => {
                   <div className="road-map-col1 cc">
                     <h4>STAGE 03</h4>
                     <ul>
-                      <li>Competition countdown finishes</li>
-                      <li>The ten highest-ranked Raccoons become finalists</li>
-                      <li>The final ten random finalists will be drawn</li>
+                      <li>Competition countdown ends</li>
+                      <li>Twenty highest-ranked Raccoons become finalists</li>
+                      {/* <li>The final ten random finalists will be drawn</li> */}
                       <li>The 1738-hour countdown to the battle begins</li>
-                      <li>Increase marketing campaign for the live battles</li>
+                      <li>Promotion for the live battles starts</li>
                       <li>Secure major corporate sponsor</li>
-                      <li>Merchandise reveal and giveaway</li>
+                      <li>Merchandise reveals and giveaway</li>
                     </ul>
                     <div>
                       <img src={downDown} alt="" className=" imgSt2" />
@@ -308,15 +304,15 @@ const Home = () => {
                   <div className="road-map-col cc">
                     <h4>STAGE 04</h4>
                     <ul>
-                      <li>All “Proxy” performers to be revealed</li>
-                      <li>The 1738 hr countdown ends and the battles begin</li>
-                      <li>The 20 Finalists performances are live streamed</li>
-                      <li>Finalists’ performances uploaded to YouTube</li>
+                      <li>The “Proxy” performers to be revealed</li>
+                      <li>1738hr countdown ends, the battles begin</li>
+                      <li>Finalists’ performances to be live-streamed</li>
+                      <li>Performances uploaded to YouTube</li>
                       <li>Rapping Raccoons cast their vote, for all to see</li>
                       <li>
                         Public will have 7 days to vote, via YouTube likes
                       </li>
-                      <li>Winners announced and prize money distributed</li>
+                      {/* <li>Winners announced and prize money distributed</li> */}
                     </ul>
                     <div>
                       <img src={downDown} alt="" className="downDown3" />
@@ -327,19 +323,14 @@ const Home = () => {
                   <div className="road-map-col cc">
                     <h4>STAGE 05</h4>
                     <ul>
-                      <li>
-                        The winning performance to be turned into an NFT, and
-                        auctioned off for charity
-                      </li>
+                      <li>Winners announced, prize money distributed</li>
+                      <li>Winning performance sold as an NFT, for charity</li>
                       <li>Build the Raccoon Rave club in the Metaverse</li>
                       <li>
                         The winner will get a star on the RRC “Walk of Fame”
                       </li>
-                      <li>
-                        All Raccoon finalists will be immortalized at the RRC
-                      </li>
-                      <li>Raccoons are free again to attract more followers</li>
                       <li>Details of our next competition will be announced</li>
+                      <li>Raccoons are free to attract more followers</li>
                     </ul>
                     <div>
                       <img src={downDown} alt="" className="downDown3 llg" />
@@ -362,13 +353,10 @@ const Home = () => {
                         WHEN DOES THE COMPETITON OFFICIALLY START?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        Once 80% (4,000) of the Rapping Raccoons are sold, the
+                        competition will officially begin. The official
+                        countdown clock will be displayed on the Rapping Raccoon
+                        website.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
@@ -376,41 +364,31 @@ const Home = () => {
                         HOW ARE THE FINALISTS CHOSEN?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        The top 20 ranked Rapping Raccoons on the Meta-Fame
+                        Billboard Chart become the finalists.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
-                        WHAT IS A META-FAME BILLBOARD CHARTS?
+                        WHAT'S THE META-FAME BILLBOARD ?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        The Meta-Fame Billboard Chart is where all Rapping
+                        Raccoons are ranked from highest to lowest based on the
+                        number of "followers" they have attracted.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                       <Accordion.Header>
-                        WHY DO I NEED TO ATTRACT FOLLOWS?
+                        WHY DO I NEED TO ATTRACT FOLLOWERS?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        We want to grow the Rapping Raccoons and the NFT
+                        community as large and as fast as possible, what better
+                        way to grow than by introducing new people into the NFT
+                        space. Our goal is to invite over 5 million followers to
+                        our event, bringing fame, fortune, and a future to our
+                        Rapping Raccoon community.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
@@ -418,13 +396,12 @@ const Home = () => {
                         HOW DO I GET FOLLOWERS?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        Rapping Raccoons come with "100 virtual followers" and
+                        the Raccoons with rare traits will come with “300
+                        virtual followers”. From there It will be up to each
+                        individual Rapping Raccoon to use their promotional
+                        skills to attract additional followers to their Rapping
+                        Raccoon.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="5">
@@ -432,13 +409,11 @@ const Home = () => {
                         HOW DO PEOPLE FOLLOW THE RACCOONS?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        They will need to go to the Raccoon Rave Club website
+                        and select the Rapping Raccoon they would like to follow
+                        from the Meta-Fame Billboard Chart, and click follow,
+                        its that easy. Followers will be verified, via one of
+                        their social media or discord account.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="6">
@@ -446,13 +421,13 @@ const Home = () => {
                         WHAT HAPPENS IF I OWN MORE THAN ONE RACCOON?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        Followers can be transferred from one Rapping Raccoon to
+                        another, if they are owned by the same person. Example:
+                        If you own a Raccoon with 1,000 followers and you buy
+                        another Rapping Raccoon that has 500 followers you can
+                        move all the followers to the one Raccoon, effectively
+                        ending up with one Raccoon having 1,500 followers and
+                        the other having zero.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="7">
@@ -460,13 +435,8 @@ const Home = () => {
                         CAN FINALISTS SELL THEIR RAPPING RACCOONS?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        Your Rapping Raccoons Meta-Fame Billboard ranking at the
+                        time of sale remains the same for the new owner.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="8">
@@ -474,13 +444,9 @@ const Home = () => {
                         DO THE FINALISTS HAVE TIME TO PREPARE FOR THE BATTLE?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        Once the finalists are announced they will have 1,738
+                        hours to prepare, or to name a "Proxy" who will perform
+                        on their behalf.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="9">
@@ -489,13 +455,13 @@ const Home = () => {
                         PLACE?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        Yes, they can nominate any "PROXY" they like, who is
+                        willing to perform on their behalf.
+                        <p>
+                          If you find yourself in the final and have no musical
+                          talent you better find someone that does, or it’s
+                          going to be brutal.
+                        </p>
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="10">
@@ -504,13 +470,12 @@ const Home = () => {
                         COMPETITION?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        ABSOLUTELY NOT!{" "}
+                        <p>
+                          The creators of this NFT collection do not have any
+                          Rapping Raccoons in the contest, all 5,000 Rapping
+                          Raccoons are up for grabs.
+                        </p>
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="11">
@@ -518,13 +483,9 @@ const Home = () => {
                         IF I WIN, HOW DO I GET MY PRIZE ?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        All prize money will be transferred in ETH directly into
+                        your ETH wallet as soon as the competition has been
+                        officially decided.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="12">
@@ -532,13 +493,12 @@ const Home = () => {
                         CAN I SPONSER THIS EVENT?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        YES,
+                        <p>
+                          We are actively pursuing sponsors for this event and
+                          future competitions. Please contact us if you would
+                          like to be a part of this historical Meta-Music event.
+                        </p>
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="13">
@@ -546,13 +506,26 @@ const Home = () => {
                         WHAT HAPPENS TO MY RACCOON AFTER THE COMPETITION?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Once 80% of the Rapping Raccoons are sold the
-                        competitions will officially start. The Rapping Raccoon
-                        holders will have 99 days to attract “followers” to
-                        their Rapping Raccoon, on the 100th day Raccoons will
-                        not be able to add any additional followers, for this
-                        competition. The official countdown clock will be
-                        displayed on Rapping Raccoon website.
+                        Our Vision,
+                        <p>
+                          After this competition ends, the Meta-Fame Billboard
+                          Chart will be unfrozen, and the Rapping Raccoons can
+                          continue to add more followers to their Rapping
+                          Raccoons profile.
+                        </p>
+                        <p>
+                          {" "}
+                          Our goal is to run the competition again next year. We
+                          hope to attract a major corporate sponsor to help
+                          support future events.
+                        </p>
+                        <p>
+                          We are looking to purchase or lease land in the
+                          Metaverse and start building the Raccoon Rave club
+                          ASAP, for all Rapping Raccoons and their followers to
+                          enjoy!
+                        </p>
+                        <p>Stay tuned more to come on this soon.</p>
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -571,14 +544,14 @@ const Home = () => {
                     >
                       <div className="family-content-inner">
                         <img src={img52} alt="" />
-                        <h4>DADDY-A</h4>
+                        <h4>DADDY-O</h4>
                         <h5>Cofounder / Operations</h5>
                         <p>
-                          Known for his ideas and creative mind, mo importantly
-                          importantly he knows how to get shit do n+ owning &
-                          owning & running companies.
+                          Known for his ideas and creative mind, most
+                          importantly importantly he knows how to get shit done.
+                          Twenty-plus years owning & running companies.
                         </p>
-                        <span>Junior J ’s dad , mentor and wallet.</span>
+                        {/* <span>Junior J ’s dad , mentor and wallet.</span> */}
                       </div>
                     </div>
                   </div>
@@ -588,14 +561,14 @@ const Home = () => {
                     >
                       <div className="family-content-inner">
                         <img src={img83} alt="" />
-                        <h4>JUNIOR- J</h4>
-                        <h5>Cofounder / Jr Promoter</h5>
+                        <h4>WIZZ KID</h4>
+                        <h5>Cofounder / Promoter</h5>
                         <p>
-                          14 years old kid, with more connection then Donald
+                          16-years-old kid, with more connection then Donald
                           Trump. Lives and breaths all things NFT’s and
                           metaverse related.
                         </p>
-                        <span>Daddy-A’s reason to live</span>
+                        {/* <span>Daddy-A’s reason to live</span> */}
                       </div>
                     </div>
                   </div>
@@ -605,14 +578,14 @@ const Home = () => {
                     >
                       <div className="family-content-inner">
                         <img src={img125} alt="" />
-                        <h4>BIG MUMMA</h4>
-                        <h5>Marketing</h5>
+                        <h4>NO NO'S</h4>
+                        <h5>Marketing / NEGOTIATOR</h5>
                         <p>
-                          She can talk underwater, 20+ years running sales and
-                          marketing teams across multiple industries, Never
-                          takes no for an answer!
+                          She can talk underwater, Twenty-Plus years running
+                          sales and marketing teams across multiple industries,
+                          Never takes no for an answer!
                         </p>
-                        <span>Daddy-A’s ball and chain</span>
+                        {/* <span>Daddy-A’s ball and chain</span> */}
                       </div>
                     </div>
                   </div>
@@ -622,14 +595,14 @@ const Home = () => {
                     >
                       <div className="family-content-inner">
                         <img src={img153} alt="" />
-                        <h4>BUBBA- E</h4>
-                        <h5>AKA Gossip Girl</h5>
+                        <h4>BUBBA - AKA GOSSIP GIRL</h4>
+                        <h5>Social Media Expert</h5>
                         <p>
                           With her finger firmly on the pulse of all things
                           social, discovering events, trends and hot new talent
                           is her specialty.
                         </p>
-                        <span>Big Mumma’s pet project</span>
+                        {/* <span>Big Mumma’s pet project</span> */}
                       </div>
                     </div>
                   </div>
@@ -642,9 +615,9 @@ const Home = () => {
                         <h4>BRAINS TRUST</h4>
                         <h5>Tech Head</h5>
                         <p>
-                          Lead developer, with over 15 years experience in
-                          software development across multiple platforms, h our
-                          our go to man for all things tech.
+                          Lead software engineer, with over 15 years’ experience
+                          in software development across multiple platforms, our
+                          go to man for all things tech.
                         </p>
                       </div>
                     </div>
@@ -660,8 +633,8 @@ const Home = () => {
                         <h5>Graphic Artist</h5>
                         <p>
                           Likes to keep a low profile, he has been a
-                          professional graphic designer for more than 5 years,
-                          we call him the creative genius.
+                          professional graphic designer for over 8 years, we
+                          call him the creative genius.
                         </p>
                       </div>
                     </div>
@@ -672,50 +645,6 @@ const Home = () => {
           </section>
         </div>
         {/* <!-- Contant End --> */}
-        <footer>
-          <div className="container">
-            <div className="footer-content">
-              <a href="#" className="footer-logo">
-                RAPPING RACCOONS
-              </a>
-              <a href="#" className="footer-logo-m">
-                <img src={FooterLogo} alt="" />
-              </a>
-              <p>
-                &copy; 2021 <a href="#">RAPPING RACCOONS</a>, ALL RIGHTS
-                RESERVED.
-              </p>
-              <ul className="social-link">
-                <li>
-                  <a href="#">
-                    <i className="fab fa-discord"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-              <ul className="footer-link">
-                <li>
-                  <a href="#">OpenSea</a>
-                </li>
-                <li>
-                  <a href="#">Terms and Conditions</a>
-                </li>
-                <li>
-                  <a href="#">Etherscan</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </footer>
       </div>
     </div>
   );

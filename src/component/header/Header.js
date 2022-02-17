@@ -128,17 +128,17 @@ const Header = () => {
                         href="https://www.twitch.com/ICPNETWORK"
                         style={{ color: "#fff" }}
                       >
-                        <i className="fab fa-twitch"></i>
+                        <i className="fab fa-discord"></i>
                       </a>
                     </div>
-                    <div className={styles.socialLinksInner}>
+                    {/* <div className={styles.socialLinksInner}>
                       <a
                         href="https://www.facebook.com/INSANECLOWNPOSSE"
                         style={{ color: "#fff" }}
                       >
                         <i className="fab fa-facebook-f"></i>
                       </a>
-                    </div>
+                    </div> */}
                     <div className={styles.socialLinksInner}>
                       <a
                         href="https://twitter.com/icp"
@@ -270,10 +270,10 @@ const Header = () => {
                             href="https://www.twitch.com/ICPNETWORK"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-twitch"></i>
+                            <i className="fab fa-discord"></i>
                           </a>
                         </div>
-                        <div
+                        {/* <div
                           className={styles.socialLinksInnergg}
                           style={{ marginRight: "7px" }}
                         >
@@ -283,7 +283,7 @@ const Header = () => {
                           >
                             <i className="fab fa-facebook-f"></i>
                           </a>
-                        </div>
+                        </div> */}
                         <div
                           className={styles.socialLinksInnergg}
                           style={{ marginRight: "7px" }}
@@ -376,10 +376,10 @@ const Header = () => {
                             href="https://www.twitch.com/ICPNETWORK"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-twitch"></i>
+                            <i className="fab fa-discord"></i>
                           </a>
                         </div>
-                        <div
+                        {/* <div
                           className={styles.socialLinksInnergg}
                           style={{ marginRight: "7px" }}
                         >
@@ -389,7 +389,7 @@ const Header = () => {
                           >
                             <i className="fab fa-facebook-f"></i>
                           </a>
-                        </div>
+                        </div> */}
                         <div
                           className={styles.socialLinksInnergg}
                           style={{ marginRight: "7px" }}

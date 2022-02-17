@@ -595,7 +595,8 @@ footer .footer-content .footer-logo {
 }
 
 footer .footer-content .footer-logo-m {
-  display: none;
+  /* display: none; */
+  margin-bottom: 38.19px;
 }
 
 footer .footer-content p {
