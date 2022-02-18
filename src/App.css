@@ -67,7 +67,7 @@
 }
 .row-map-c {
   flex: 0 0 auto;
-  width: 382px;
+  width: 409px;
   position: relative;
 }
 .row-map-w1 {
@@ -84,7 +84,7 @@
 }
 .row-map-c1 {
   flex: 0 0 auto;
-  width: 396px;
+  width: 401px;
   position: relative;
 }
 .downDown {
@@ -112,7 +112,7 @@
   height: 178px;
   margin: auto;
   right: -115px;
-  top: 18px;
+  top: 0px;
   z-index: 2;
 }
 .road-map-col {
@@ -149,7 +149,7 @@
 .road-map-col ul li {
   text-align: left;
   font: normal normal normal 14px/16px Roboto;
-  letter-spacing: 1.23px;
+  letter-spacing: 0.23px;
   color: #ffffff;
 }
 .road-map-col1 ul {
@@ -158,14 +158,50 @@
 .road-map-col1 ul li {
   text-align: left;
   font: normal normal normal 14px/16px Roboto;
-  letter-spacing: 1.23px;
+  letter-spacing: 0.23px;
   color: #ffffff;
 }
 .wrap-wrap {
-  max-width: 95%;
+  max-width: 98%;
   margin: auto;
 }
 @media screen and (max-width: 1268px) {
+  .row-map-c {
+    max-width: 370px;
+  }
+  .row-map-c1 {
+    max-width: 360px;
+  }
+  .imgSt2 {
+    top: 0;
+  }
+  .road-map-col ul,
+  .road-map-col1 ul {
+    padding-left: 24px !important;
+  }
+  .road-map-col ul li,
+  .road-map-col1 ul li {
+    font-size: 13px;
+  }
+  .road-map-col ul li,
+  .road-map-col1 ul li {
+    letter-spacing: 0;
+  }
+  /* .ccx {
+    padding: 30px 10px 12px 10px !important;
+  }
+  .road-map-col1 {
+    padding: 30px 10px 45px 10px;
+  } */
+  .downDown3 {
+    bottom: 90%;
+  }
+}
+@media screen and (max-width: 1158px) {
+  .wrap-wrap {
+    max-width: 99%;
+    margin: auto;
+  }
   .row-map-c {
     max-width: 320px;
   }
@@ -173,33 +209,15 @@
     max-width: 320px;
   }
   .imgSt2 {
-    top: 13%;
+    top: 0%;
   }
-  .road-map-col ul li,
-  .road-map-col1 ul li {
-    font-size: 14px;
-  }
-  .ccx {
-    padding: 30px 10px 12px 10px !important;
-  }
+  .road-map-col,
   .road-map-col1 {
-    padding: 30px 10px 45px 10px;
-  }
-  .downDown3 {
-    bottom: 90%;
-  }
-}
-@media screen and (max-width: 1118px) {
-  .row-map-c,
-  .row-map-c1 {
-    max-width: 300px;
-  }
-  .imgSt2 {
-    top: 16%;
+    padding: 20px 3px 10px 5px;
   }
   .road-map-col ul li,
   .road-map-col1 ul li {
-    font-size: 12px;
+    font-size: 11.5px;
   }
 }
 @media screen and (max-width: 1018px) {
@@ -212,36 +230,40 @@
     max-width: 280px;
   }
   .imgSt2 {
-    top: 10%;
+    top: 0%;
   }
 }
 @media screen and (max-width: 980px) {
   .row-map-c,
   .row-map-c1 {
-    max-width: 260px;
+    max-width: 284px;
+  }
+  .road-map-col ul,
+  .road-map-col1 ul {
+    padding-left: 18px !important;
   }
   .road-map-col ul li,
   .road-map-col1 ul li {
-    font-size: 11px;
+    font-size: 10.5px;
   }
   .imgSt2 {
-    top: 17%;
+    top: 0%;
   }
-  .road-map-col1 {
+  /* .road-map-col1 {
     padding: 27px 3px 48px 1px;
-  }
+  } */
 }
 @media screen and (max-width: 880px) {
   .row-map-c,
   .row-map-c1 {
-    max-width: 240px;
+    max-width: 250px;
   }
   .imgSt2 {
-    top: 17%;
+    top: 0%;
   }
   .road-map-col ul li,
   .road-map-col1 ul li {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 @media screen and (max-width: 520px) {
@@ -256,6 +278,14 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .road-map-col h4,
+  .road-map-col1 h4 {
+    margin-bottom: 14px;
+  }
+  .road-map-col ul,
+  .road-map-col1 ul {
+    padding-left: 2rem !important;
+  }
   .road-map-col ul li,
   .road-map-col1 ul li {
     font-size: 14px;
@@ -322,22 +352,30 @@
   display: none !important;
 }
 @media screen and (min-width: 1440px) {
+  .wrap-wrap {
+    max-width: 98%;
+    margin: auto;
+  }
+  .road-map-col ul,
+  .road-map-col1 ul {
+    padding-left: 24px !important;
+  }
   .road-map-col ul li,
   .road-map-col1 ul li {
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 6px;
   }
   .row-map-c {
-    width: 449px;
+    width: 473px;
   }
   .row-map-c1 {
-    width: 445px;
+    width: 473px;
   }
   .road-map-col1 {
-    padding: 30px 10px 10px;
+    padding: 20px 10px 10px;
   }
   .imgSt2 {
-    top: 24px;
+    top: 10px;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -347,13 +385,13 @@
     margin-bottom: 6px;
   }
   .row-map-c {
-    width: 447px;
+    width: 506px;
   }
   .row-map-c1 {
-    width: 446px;
+    width: 506px;
   }
   .imgSt2 {
-    top: 23px;
+    top: 11px;
   }
 }
 .term-and-cond-wrapper {

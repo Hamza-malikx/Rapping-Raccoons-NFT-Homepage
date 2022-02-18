@@ -432,7 +432,8 @@ const Home = () => {
                     </Accordion.Item>
                     <Accordion.Item eventKey="7">
                       <Accordion.Header>
-                        CAN FINALISTS SELL THEIR RAPPING RACCOONS?
+                        WHAT HAPPENS IF I SELL MY RACCOON BEFORE THE
+                        COMPETITION?
                       </Accordion.Header>
                       <Accordion.Body>
                         Your Rapping Raccoons Meta-Fame Billboard ranking at the
@@ -440,6 +441,15 @@ const Home = () => {
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="8">
+                      <Accordion.Header>
+                        CAN FINALISTS SELL THEIR RAPPING RACCOONS?
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        Yes, you can sell your Rapping Raccoon at any time to
+                        anybody, up until it’s your turn to perform.
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="9">
                       <Accordion.Header>
                         DO THE FINALISTS HAVE TIME TO PREPARE FOR THE BATTLE?
                       </Accordion.Header>
@@ -449,7 +459,7 @@ const Home = () => {
                         on their behalf.
                       </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="9">
+                    <Accordion.Item eventKey="10">
                       <Accordion.Header>
                         CAN FINALISTS GET ANYONE THEY WANT TO PERFORM IN THEIR
                         PLACE?
@@ -464,7 +474,22 @@ const Home = () => {
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="10">
+                    <Accordion.Item eventKey="11">
+                      <Accordion.Header>
+                        WHO CHOOSES THE WINNING PERFORMANCE?
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        4,990 Rapping Raccoons each get 1 vote, the 10 Raccoons
+                        with the rare trait 1738 have 50 votes each. In
+                        addition, all 20 performances will be uploaded to our
+                        YouTube channel, the most liked performance (within
+                        7days of the competition) will receive 1,098 extra
+                        votes, totalling a possible 6588 votes. The Rapping
+                        Raccoon with the most votes wins. Votes will be openly
+                        displayed for all to see.
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="12">
                       <Accordion.Header>
                         DO THE CREATERS HAVE A RAPPING RACCOON IN THE
                         COMPETITION?
@@ -478,7 +503,7 @@ const Home = () => {
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="11">
+                    <Accordion.Item eventKey="13">
                       <Accordion.Header>
                         IF I WIN, HOW DO I GET MY PRIZE ?
                       </Accordion.Header>
@@ -488,7 +513,7 @@ const Home = () => {
                         officially decided.
                       </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="12">
+                    <Accordion.Item eventKey="14">
                       <Accordion.Header>
                         CAN I SPONSER THIS EVENT?
                       </Accordion.Header>
@@ -501,7 +526,7 @@ const Home = () => {
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="13">
+                    <Accordion.Item eventKey="15">
                       <Accordion.Header>
                         WHAT HAPPENS TO MY RACCOON AFTER THE COMPETITION?
                       </Accordion.Header>

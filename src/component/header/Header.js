@@ -125,7 +125,7 @@ const Header = () => {
                   <div className={styles.socialLinks}>
                     <div className={styles.socialLinksInner}>
                       <a
-                        href="https://www.twitch.com/ICPNETWORK"
+                        href="https://discord.gg/gQsCTHAAk5"
                         style={{ color: "#fff" }}
                       >
                         <i className="fab fa-discord"></i>
@@ -141,7 +141,7 @@ const Header = () => {
                     </div> */}
                     <div className={styles.socialLinksInner}>
                       <a
-                        href="https://twitter.com/icp"
+                        href="https://twitter.com/RappingRaccoon?t=s2xAN9nCdIbn98-j5rtYoA&s=09"
                         style={{ color: "#fff" }}
                       >
                         <i className="fab fa-twitter"></i>
@@ -149,20 +149,20 @@ const Header = () => {
                     </div>
                     <div className={styles.socialLinksInner}>
                       <a
-                        href="https://www.instagram.com/therealicp/?hl=en"
+                        href="https://www.instagram.com/rappingraccoon/?hl=enannounced"
                         style={{ color: "#fff" }}
                       >
                         <i className="fab fa-instagram"></i>
                       </a>
                     </div>
-                    <div className={styles.socialLinksInner}>
+                    {/* <div className={styles.socialLinksInner}>
                       <a
                         href="https://www.youtube.com/channel/UC1kxQJwhVuZyheS1XKpzAHQ"
                         style={{ color: "#fff" }}
                       >
                         <i className="fab fa-youtube"></i>
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </li>
               </ul>
@@ -267,7 +267,7 @@ const Header = () => {
                           style={{ marginRight: "7px" }}
                         >
                           <a
-                            href="https://www.twitch.com/ICPNETWORK"
+                            href="https://discord.gg/gQsCTHAAk5"
                             style={{ color: "#fff" }}
                           >
                             <i className="fab fa-discord"></i>
@@ -289,7 +289,7 @@ const Header = () => {
                           style={{ marginRight: "7px" }}
                         >
                           <a
-                            href="https://twitter.com/icp"
+                            href="https://twitter.com/RappingRaccoon?t=s2xAN9nCdIbn98-j5rtYoA&s=09"
                             style={{ color: "#fff" }}
                           >
                             <i className="fab fa-twitter"></i>
@@ -300,13 +300,13 @@ const Header = () => {
                           style={{ marginRight: "7px" }}
                         >
                           <a
-                            href="https://www.instagram.com/therealicp/?hl=en"
+                            href="https://www.instagram.com/rappingraccoon/?hl=enannounced"
                             style={{ color: "#fff" }}
                           >
                             <i className="fab fa-instagram"></i>
                           </a>
                         </div>
-                        <div
+                        {/* <div
                           className={styles.socialLinksInnergg}
                           style={{ marginRight: "7px" }}
                         >
@@ -316,7 +316,7 @@ const Header = () => {
                           >
                             <i className="fab fa-youtube"></i>
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                     </li>
                     <li style={{ textAlign: "center" }}>
@@ -373,7 +373,7 @@ const Header = () => {
                           style={{ marginRight: "7px" }}
                         >
                           <a
-                            href="https://www.twitch.com/ICPNETWORK"
+                            href="https://discord.gg/gQsCTHAAk5"
                             style={{ color: "#fff" }}
                           >
                             <i className="fab fa-discord"></i>
@@ -395,7 +395,7 @@ const Header = () => {
                           style={{ marginRight: "7px" }}
                         >
                           <a
-                            href="https://twitter.com/icp"
+                            href="https://twitter.com/RappingRaccoon?t=s2xAN9nCdIbn98-j5rtYoA&s=09"
                             style={{ color: "#fff" }}
                           >
                             <i className="fab fa-twitter"></i>
@@ -406,13 +406,13 @@ const Header = () => {
                           style={{ marginRight: "7px" }}
                         >
                           <a
-                            href="https://www.instagram.com/therealicp/?hl=en"
+                            href="https://www.instagram.com/rappingraccoon/?hl=enannounced"
                             style={{ color: "#fff" }}
                           >
                             <i className="fab fa-instagram"></i>
                           </a>
                         </div>
-                        <div
+                        {/* <div
                           className={styles.socialLinksInnergg}
                           style={{ marginRight: "7px" }}
                         >
@@ -422,7 +422,7 @@ const Header = () => {
                           >
                             <i className="fab fa-youtube"></i>
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                     </li>
                     <li style={{ textAlign: "center" }}>
