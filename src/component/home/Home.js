@@ -203,15 +203,15 @@ const Home = () => {
                 <p>
                   The winner will be decided by the Rapping Raccoons, 4,990
                   Rapping Raccoons will each get 1 vote, the 10 Raccoons with
-                  the rare trait “1738” will get 50 votes. In addition, the most
-                  liked performance on YouTube will receive 1098 extra votes,
-                  totalling a possible 6588 votes. The Rapping Raccoon that
-                  receives the most votes will win the 300k first prize and be
-                  named “Meta-Music Rapping Raccoon of the year”. All 20
-                  finalists will be immortalized on the RRC “wall of fame”, with
-                  the winning Raccoon getting their own star on the “walk of
-                  fame” club entrance.
-                  <br /> The winning performance clip will become an NFT and be
+                  the rare trait “1738” will have 50 votes. In addition, the
+                  most liked performance on YouTube will receive 1098 extra
+                  votes, totalling a possible 6588 votes. The Rapping Raccoon
+                  that receives the most votes will win the $300,000 first prize
+                  and and be named “Meta-Music Rapping Raccoon of the year”. All
+                  20 finalists will be immortalized on the RRC “wall of fame”,
+                  with the winning Raccoon getting their own star on the “walk
+                  of fame” club entrance.
+                  <br /> The winning performance clip will become an NFT and
                   sold, with all funds raised going to the
                   <br /> winning Raccoon’s Charity of choice.
                 </p>
@@ -235,11 +235,9 @@ const Home = () => {
                       <li>
                         The creation of 5,000 unique Rapping Raccoons NFT’s
                       </li>
-                      <li>
-                        Discord and Social media deployment to begin Sniper
-                      </li>
-                      <li>Launch preliminary Rapping Raccoon website Rarity</li>
-                      <li>Commence marketing campaign</li>
+                      <li>Discord and Social media deployment to start</li>
+                      <li>Launch preliminary Rapping Raccoon website</li>
+                      <li>Commence intense marketing campaign</li>
                       {/* <li>Grow twitter to over 30k followers</li> */}
                       <li>White-list selection process announced </li>
                       <li>List on Rarity Sniper</li>
@@ -288,9 +286,9 @@ const Home = () => {
                     <h4>STAGE 03</h4>
                     <ul>
                       <li>Competition countdown ends</li>
-                      <li>Twenty highest-ranked Raccoons become finalists</li>
+                      <li>20 highest-ranked Raccoons become finalists</li>
                       {/* <li>The final ten random finalists will be drawn</li> */}
-                      <li>The 1738-hour countdown to the battle begins</li>
+                      <li>1738-hour countdown to the battle begins</li>
                       <li>Promotion for the live battles starts</li>
                       <li>Secure major corporate sponsor</li>
                       <li>Merchandise reveals and giveaway</li>
@@ -304,14 +302,12 @@ const Home = () => {
                   <div className="road-map-col cc">
                     <h4>STAGE 04</h4>
                     <ul>
-                      <li>The “Proxy” performers to be revealed</li>
-                      <li>1738hr countdown ends, the battles begin</li>
+                      <li>The “Proxy” performers are revealed</li>
+                      <li>1738hr countdown ends, battles start</li>
                       <li>Finalists’ performances to be live-streamed</li>
                       <li>Performances uploaded to YouTube</li>
-                      <li>Rapping Raccoons cast their vote, for all to see</li>
-                      <li>
-                        Public will have 7 days to vote, via YouTube likes
-                      </li>
+                      <li>Rapping Raccoons cast their vote</li>
+                      <li>The public have 7 days to vote on YouTube</li>
                       {/* <li>Winners announced and prize money distributed</li> */}
                     </ul>
                     <div>
@@ -326,10 +322,8 @@ const Home = () => {
                       <li>Winners announced, prize money distributed</li>
                       <li>Winning performance sold as an NFT, for charity</li>
                       <li>Build the Raccoon Rave club in the Metaverse</li>
-                      <li>
-                        The winner will get a star on the RRC “Walk of Fame”
-                      </li>
-                      <li>Details of our next competition will be announced</li>
+                      <li>Winner get's a star on the RRC “Walk of Fame”</li>
+                      <li>Details of our next battle will be announced</li>
                       <li>Raccoons are free to attract more followers</li>
                     </ul>
                     <div>
@@ -589,7 +583,7 @@ const Home = () => {
                         <h4>WIZZ KID</h4>
                         <h5>Cofounder / Promoter</h5>
                         <p>
-                          16-years-old kid, with more connection then Donald
+                          16-years-old kid, with more connections then Donald
                           Trump. Lives and breaths all things NFT’s and
                           metaverse related.
                         </p>
@@ -604,7 +598,7 @@ const Home = () => {
                       <div className="family-content-inner">
                         <img src={img125} alt="" />
                         <h4>NO NO'S</h4>
-                        <h5>Marketing / NEGOTIATOR</h5>
+                        <h5>Marketing / Negotiator</h5>
                         <p>
                           She can talk underwater, Twenty-Plus years running
                           sales and marketing teams across multiple industries,
