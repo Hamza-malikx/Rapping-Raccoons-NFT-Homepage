@@ -392,12 +392,12 @@ input[type="number"] {
 }
 @media screen and (min-width: 1400px) {
   .road-map-wrap {
-    padding: 310.48px 0 143.33px;
+    padding: 290.48px 0 143.33px;
   }
 }
 @media screen and (max-width: 1399px) {
   .road-map-wrap {
-    padding: 330.48px 0 143.33px;
+    padding: 280.48px 0 143.33px;
   }
 }
 @media screen and (min-width: 1600px) {

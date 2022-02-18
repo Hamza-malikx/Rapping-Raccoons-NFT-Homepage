@@ -336,7 +336,7 @@
 @media screen and (max-width: 580px) {
   .downDown3 {
     transform: rotate(0deg);
-    top: 140%;
+    top: 156%;
     bottom: 0;
   }
   .road-map-col ul li,

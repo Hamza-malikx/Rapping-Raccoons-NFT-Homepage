@@ -76,12 +76,12 @@ const Home = () => {
                   <h2>$500,000 IN PRIZES TO BE WON</h2>
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://discord.gg/gQsCTHAAk5">
                         <img src={discord} alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://twitter.com/RappingRaccoon?t=s2xAN9nCdIbn98-j5rtYoA&s=09">
                         <img src={twitter} alt="" />
                       </a>
                     </li>
