@@ -19,17 +19,17 @@ const Footer = () => {
             </p>
             <ul className="social-link">
               <li>
-                <a href="#">
+                <a href="https://discord.gg/gQsCTHAAk5">
                   <i className="fab fa-discord"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://twitter.com/RappingRaccoon?t=s2xAN9nCdIbn98-j5rtYoA&s=09">
                   <i className="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/rappingraccoon/?hl=enannounced">
                   <i className="fab fa-instagram"></i>
                 </a>
               </li>
