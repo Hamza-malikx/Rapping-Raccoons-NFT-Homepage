@@ -262,7 +262,7 @@ label span {
   .wrapper {
     display: block;
     position: absolute;
-    width: 60%;
+    width: 50%;
     height: 100vh;
     left: -706px;
     top: 0;
@@ -275,7 +275,7 @@ label span {
   .wrapperab {
     display: block;
     position: absolute;
-    width: 60%;
+    width: 50%;
     height: 100vh;
     left: -100%;
     top: 0;
@@ -291,6 +291,10 @@ label span {
 @media screen and (max-width: 767px) {
   .navLink {
     display: none;
+  }
+  .wrapper,
+  .wrapperab {
+    width: 60%;
   }
   .logo {
     margin-left: 0;
