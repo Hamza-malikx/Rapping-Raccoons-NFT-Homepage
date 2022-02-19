@@ -262,7 +262,7 @@ label span {
   .wrapper {
     display: block;
     position: absolute;
-    width: 53%;
+    width: 60%;
     height: 100vh;
     left: -706px;
     top: 0;
@@ -275,7 +275,7 @@ label span {
   .wrapperab {
     display: block;
     position: absolute;
-    width: 43%;
+    width: 60%;
     height: 100vh;
     left: -100%;
     top: 0;
