@@ -270,7 +270,7 @@ const Header = () => {
                             href="https://discord.gg/gQsCTHAAk5"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-discord fa-lg"></i>
+                            <i className="fab fa-discord fa-2xl"></i>
                           </a>
                         </div>
                         {/* <div
@@ -292,7 +292,7 @@ const Header = () => {
                             href="https://twitter.com/RappingRaccoon?t=s2xAN9nCdIbn98-j5rtYoA&s=09"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-twitter fa-lg"></i>
+                            <i className="fab fa-twitter fa-2xl"></i>
                           </a>
                         </div>
                         <div
@@ -303,7 +303,7 @@ const Header = () => {
                             href="https://www.instagram.com/rappingraccoon/?hl=enannounced"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-instagram fa-lg"></i>
+                            <i className="fab fa-instagram fa-2xl"></i>
                           </a>
                         </div>
                         {/* <div
@@ -376,7 +376,7 @@ const Header = () => {
                             href="https://discord.gg/gQsCTHAAk5"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-discord fa-lg"></i>
+                            <i className="fab fa-discord fa-2xl"></i>
                           </a>
                         </div>
                         {/* <div
@@ -398,7 +398,7 @@ const Header = () => {
                             href="https://twitter.com/RappingRaccoon?t=s2xAN9nCdIbn98-j5rtYoA&s=09"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-twitter fa-lg"></i>
+                            <i className="fab fa-twitter fa-2xl"></i>
                           </a>
                         </div>
                         <div
@@ -409,7 +409,7 @@ const Header = () => {
                             href="https://www.instagram.com/rappingraccoon/?hl=enannounced"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-instagram fa-lg"></i>
+                            <i className="fab fa-instagram fa-2xl"></i>
                           </a>
                         </div>
                         {/* <div
