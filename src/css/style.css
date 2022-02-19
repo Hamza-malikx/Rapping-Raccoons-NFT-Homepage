@@ -124,7 +124,9 @@ input[type="number"] {
   width: 100%;
 }
 /*-_-_Banner_CSS_End_-_-*/
-
+.content {
+  margin-top: -1px;
+}
 /*-_-_Content_CSS_Start_-_-*/
 .content h2 {
   font-size: 38px;
@@ -198,6 +200,7 @@ input[type="number"] {
 .buy-your-wrap {
   padding: 75px 0 66px;
   background: #080010;
+  margin-top: -1px;
 }
 
 .buy-your-wrap .buy-your-content {
@@ -289,6 +292,7 @@ input[type="number"] {
 .enter-wrap {
   position: relative;
   background: #080010;
+  margin-top: -1px;
 }
 
 .enter-wrap img {
@@ -320,6 +324,7 @@ input[type="number"] {
 .battle-begin-wrap {
   padding: 32px 0 33px;
   background: #080010;
+  margin-top: -1px;
 }
 
 .battle-begin-wrap .battle-begin-content {
@@ -337,6 +342,7 @@ input[type="number"] {
 .meta-fame-chart-wrap {
   padding: 50px 0 71px;
   background: #080010;
+  margin-top: -1px;
 }
 
 .meta-fame-chart-wrap .meta-fame-chart-content {
@@ -360,6 +366,7 @@ input[type="number"] {
 .winter-wrap {
   padding: 80px 0 44px;
   background: #080010;
+  margin-top: -1px;
 }
 
 .winter-wrap .winter-content {
@@ -389,6 +396,7 @@ input[type="number"] {
   background: url("../images/Mask Group 5@2x.png") top center no-repeat;
   background-size: cover;
   padding: 230.48px 0 143.33px;
+  margin-top: -3px;
 }
 @media screen and (min-width: 1400px) {
   .road-map-wrap {

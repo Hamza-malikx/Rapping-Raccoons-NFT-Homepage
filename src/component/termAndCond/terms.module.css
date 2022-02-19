@@ -69,7 +69,10 @@
 @media screen and (max-width: 767px) {
   .td1,
   .td {
-    font-size: 13px;
+    font-size: 12px;
+  }
+  .td1 {
+    width: 30%;
   }
   .termsUl {
     font-size: 13px;
@@ -95,5 +98,23 @@
   }
   .termsSubHeading {
     font-size: 17px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .td1,
+  .td {
+    font-size: 11px;
+  }
+  .td1 {
+    width: 35%;
+  }
+  .termsUl {
+    font-size: 11px;
+  }
+  .termsHeading {
+    font-size: 26px;
+  }
+  .termsSubHeading {
+    font-size: 20px;
   }
 }
