@@ -208,7 +208,7 @@ const Header = () => {
                       style={{ margin: "20px 0 !important" }}
                     >
                       <Link
-                        className={styles.navbarLink}
+                        className={`${styles.navbarLink} ${styles.nbl}`}
                         to="/"
                         onClick={scroll}
                       >
@@ -217,7 +217,7 @@ const Header = () => {
                     </li>
                     <li className={styles.navbarItemsAg}>
                       <Link
-                        className={styles.navbarLink}
+                        className={`${styles.navbarLink} ${styles.nbl}`}
                         to="/"
                         onClick={scrollToAbout}
                       >
@@ -226,7 +226,7 @@ const Header = () => {
                     </li>
                     <li className={styles.navbarItemsAg}>
                       <Link
-                        className={styles.navbarLink}
+                        className={`${styles.navbarLink} ${styles.nbl}`}
                         to="/"
                         onClick={scrollToBuy}
                       >
@@ -235,7 +235,7 @@ const Header = () => {
                     </li>
                     <li className={styles.navbarItemsAg}>
                       <Link
-                        className={styles.navbarLink}
+                        className={`${styles.navbarLink} ${styles.nbl}`}
                         to="/"
                         onClick={scrollToMap}
                       >
@@ -244,7 +244,7 @@ const Header = () => {
                     </li>
                     <li className={styles.navbarItemsAg}>
                       <Link
-                        className={styles.navbarLink}
+                        className={`${styles.navbarLink} ${styles.nbl}`}
                         to="/"
                         onClick={scrollToTeam}
                       >
@@ -253,7 +253,7 @@ const Header = () => {
                     </li>
                     <li className={styles.navbarItemsAg}>
                       <Link
-                        className={styles.navbarLink}
+                        className={`${styles.navbarLink} ${styles.nbl}`}
                         to="/"
                         onClick={scrollUsage}
                       >
@@ -343,27 +343,27 @@ const Header = () => {
                       className={styles.navbarItemsAg}
                       style={{ margin: "20px 0 !important" }}
                     >
-                      <Link className={styles.navbarLink} to="/">
+                      <Link className={`${styles.navbarLink} ${styles.nbl}`} to="/">
                         HOME
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
+                      <Link className={`${styles.navbarLink} ${styles.nbl}`} to="/">
                         ABOUT US
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
+                      <Link className={`${styles.navbarLink} ${styles.nbl}`} to="/">
                         BUY
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
+                      <Link className={`${styles.navbarLink} ${styles.nbl}`} to="/">
                         ROADMAP
                       </Link>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
+                      <Link className={`${styles.navbarLink} ${styles.nbl}`} to="/">
                         TEAM
                       </Link>
                     </li>
@@ -371,7 +371,7 @@ const Header = () => {
                       className={styles.navbarItemsAg}
                       style={{ marginBottom: "5px" }}
                     >
-                      <Link className={styles.navbarLink} to="/nft-usage">
+                      <Link className={`${styles.navbarLink} ${styles.nbl}`} to="/nft-usage">
                         FAQ
                       </Link>
                     </li>

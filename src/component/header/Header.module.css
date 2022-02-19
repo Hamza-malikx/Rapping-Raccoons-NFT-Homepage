@@ -63,6 +63,9 @@
   text-decoration: none;
   font-size: 12px;
 }
+.nbl {
+  font-size: 16px !important;
+}
 .humbergButton {
   display: none;
   position: relative;
