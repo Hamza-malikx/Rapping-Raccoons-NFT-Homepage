@@ -261,9 +261,7 @@ const Home = () => {
                   <div className="road-map-col ">
                     <h4>STAGE 01</h4>
                     <ul>
-                      <li>
-                        The creation of 5,000 unique Rapping Raccoons NFT’s
-                      </li>
+                      <li>Creation of 5,000 unique Rapping Raccoons NFT’s</li>
                       <li>Discord and Social media deployment to start</li>
                       <li>Launch preliminary Rapping Raccoon website</li>
                       <li>Commence intense marketing campaign</li>
@@ -283,10 +281,8 @@ const Home = () => {
                       <li>Winners announced, prize money distributed</li>
                       <li>Winning performance sold as an NFT, for charity</li>
                       <li>Build the Raccoon Rave club in the Metaverse</li>
-                      <li>
-                        The winner will get a star on the RRC “Walk of Fame”
-                      </li>
-                      <li>Details of our next competition will be announced</li>
+                      <li>Winner get's a star on the RRC “Walk of Fame”</li>
+                      <li>Details of our next battle will be announced</li>
                       <li>Raccoons are free to attract more followers</li>
                     </ul>
                   </div>
@@ -297,8 +293,8 @@ const Home = () => {
                   <div className="road-map-col1 cc ccx">
                     <h4>STAGE 02</h4>
                     <ul>
-                      <li>Launch private sale for VIP White-list members</li>
-                      <li>Release date of public sale will be announced</li>
+                      <li>Launch private sale for White-list members</li>
+                      <li>Release date of public sale to be announced</li>
                       <li>Initiate the Rapping Raccoon YouTube channel</li>
                       {/* <li>Give away promotion to be laid out</li> */}
                       <li>Sell out 80% of Rapping Raccoons</li>
