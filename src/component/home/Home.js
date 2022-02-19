@@ -20,8 +20,11 @@ import img1251 from "../../images/3456.png";
 import img153 from "../../images/153@2x.png";
 import Accordion from "react-bootstrap/Accordion";
 import downDown from "../../images/Group 1338@2x.png";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 const Home = () => {
   const [state, setState] = useState(1);
+  const [mstate, msetState] = useState(false);
   const down = () => {
     if (state > 0) {
       setState(state - 1);
@@ -33,8 +36,12 @@ const Home = () => {
     setState(state + 1);
   };
   const PopUp = () => {
-    alert("Raccoon Rave currently under construction, coming soon");
+    mstate === false ? msetState(true) : msetState(false);
   };
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div className="homeSect1">
       <div className="wrapper">
@@ -143,10 +150,32 @@ const Home = () => {
           </section>
           <section className="enter-wrap">
             <img src={enterImg} alt="" />
-            <a href="#" className="enter-link" onClick={PopUp}>
+            <a href="#" className="enter-link" onClick={handleShow}>
               enter
             </a>
           </section>
+          {/* {mstate === true ? ( */}
+          <Modal
+            show={show}
+            onHide={handleClose}
+            backdrop="static"
+            keyboard={false}
+          >
+            <Modal.Header closeButton>
+              <Modal.Title>Rapping Raccoons</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              Raccoon Rave currently under construction, coming soon
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={handleClose}>
+                Close
+              </Button>
+              {/* <Button variant="primary">Understood</Button> */}
+            </Modal.Footer>
+          </Modal>
+          {/* ) : null} */}
+
           <section className="battle-begin-wrap">
             <div className="container">
               <div className="battle-begin-content">
