@@ -264,13 +264,16 @@ const Header = () => {
                       <div className={styles.socialLinks}>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "7px" }}
+                          style={{ marginRight: "10px" }}
                         >
                           <a
                             href="https://discord.gg/gQsCTHAAk5"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-discord fa-2xl"></i>
+                            <i
+                              className="fab fa-discord fa-2xl ftf"
+                              style={{ fontSize: "22px" }}
+                            ></i>
                           </a>
                         </div>
                         {/* <div
@@ -286,24 +289,30 @@ const Header = () => {
                         </div> */}
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "7px" }}
+                          style={{ marginRight: "10px" }}
                         >
                           <a
                             href="https://twitter.com/RappingRaccoon?t=s2xAN9nCdIbn98-j5rtYoA&s=09"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-twitter fa-2xl"></i>
+                            <i
+                              className="fab fa-twitter fa-2xl ftf"
+                              style={{ fontSize: "22px" }}
+                            ></i>
                           </a>
                         </div>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "7px" }}
+                          style={{ marginRight: "10px" }}
                         >
                           <a
                             href="https://www.instagram.com/rappingraccoon/?hl=enannounced"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-instagram fa-2xl"></i>
+                            <i
+                              className="fab fa-instagram fa-2xl ftf"
+                              style={{ fontSize: "22px" }}
+                            ></i>
                           </a>
                         </div>
                         {/* <div
@@ -370,13 +379,16 @@ const Header = () => {
                       <div className={styles.socialLinks}>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "7px" }}
+                          style={{ marginRight: "10px" }}
                         >
                           <a
                             href="https://discord.gg/gQsCTHAAk5"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-discord fa-2xl"></i>
+                            <i
+                              className="fab fa-discord fa-2xl ftf"
+                              style={{ fontSize: "22px" }}
+                            ></i>
                           </a>
                         </div>
                         {/* <div
@@ -392,24 +404,30 @@ const Header = () => {
                         </div> */}
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "7px" }}
+                          style={{ marginRight: "10px" }}
                         >
                           <a
                             href="https://twitter.com/RappingRaccoon?t=s2xAN9nCdIbn98-j5rtYoA&s=09"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-twitter fa-2xl"></i>
+                            <i
+                              className="fab fa-twitter fa-2xl ftf"
+                              style={{ fontSize: "22px" }}
+                            ></i>
                           </a>
                         </div>
                         <div
                           className={styles.socialLinksInnergg}
-                          style={{ marginRight: "7px" }}
+                          style={{ marginRight: "10px" }}
                         >
                           <a
                             href="https://www.instagram.com/rappingraccoon/?hl=enannounced"
                             style={{ color: "#fff" }}
                           >
-                            <i className="fab fa-instagram fa-2xl"></i>
+                            <i
+                              className="fab fa-instagram fa-2xl ftf"
+                              style={{ fontSize: "22px" }}
+                            ></i>
                           </a>
                         </div>
                         {/* <div

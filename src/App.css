@@ -325,6 +325,9 @@
     margin: auto;
     transform: rotate(0deg);
   }
+  .ftf {
+    font-size: 25px;
+  }
   .st-ag {
     display: block !important;
     margin-top: 90px !important;
