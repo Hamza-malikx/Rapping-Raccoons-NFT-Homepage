@@ -608,7 +608,7 @@ const Home = () => {
                         <h4>WIZZ KID</h4>
                         <h5>Cofounder / Promoter</h5>
                         <p>
-                          16-years-old kid, with more connections then Donald
+                          16-years-old kid, with more connections than Donald
                           Trump. Lives and breaths all things NFT’s and
                           metaverse related.
                         </p>
