@@ -408,14 +408,14 @@ input[type="number"] {
     padding: 280.48px 0 143.33px;
   }
 }
-@media screen and (min-width: 1600px) {
+/* @media screen and (min-width: 1600px) {
   .road-map-wrap {
     padding: 330.48px 0 143.33px;
   }
-}
+} */
 @media screen and (min-width: 1600px) {
   .road-map-wrap {
-    padding: 400.48px 0 143.33px;
+    padding: 374.48px 0 143.33px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -1012,6 +1012,7 @@ footer .footer-link li a {
 
   .roadmap-logo-mobile {
     margin-bottom: 20px;
+    width: 400px;
   }
 
   .family-wrap {
@@ -1114,4 +1115,8 @@ footer .footer-link li a {
 }
 
 @media only screen and (max-width: 480px) {
+  .roadmap-logo-mobile {
+    margin-bottom: 20px;
+    width: 100%;
+  }
 }

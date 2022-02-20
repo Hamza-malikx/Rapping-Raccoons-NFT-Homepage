@@ -231,7 +231,7 @@ const Home = () => {
                 <h2>THE WINNER</h2>
                 <p>
                   The winner will be decided by the Rapping Raccoons, 4,990
-                  Rapping Raccoons will each get 1 vote, the 10 Raccoons with
+                  Rapping Raccoons will each have 1 vote, the 10 Raccoons with
                   the rare trait “1738” will have 50 votes. In addition, the
                   most liked performance on YouTube will receive 1098 extra
                   votes, totalling a possible 6588 votes. The Rapping Raccoon
@@ -592,8 +592,8 @@ const Home = () => {
                         <h5>Cofounder / Operations</h5>
                         <p>
                           Known for his ideas and creative mind, most
-                          importantly importantly he knows how to get shit done.
-                          Twenty-plus years owning & running companies.
+                          importantly he knows how to get shit done. Twenty-plus
+                          years owning & running companies.
                         </p>
                         {/* <span>Junior J ’s dad , mentor and wallet.</span> */}
                       </div>
